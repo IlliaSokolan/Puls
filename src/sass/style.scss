@@ -1,4 +1,5 @@
 @import 'base/variables';
+@import 'base/animations';
 
 *{
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -20,7 +21,11 @@ a {
 @import 'blocks/carousel';
 @import 'blocks/catalog';
 @import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
 @import 'base/media';
+
 
 h1 {
     margin-bottom: 0;

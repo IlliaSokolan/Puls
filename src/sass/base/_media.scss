@@ -179,6 +179,35 @@
                 }
             }
         }
+    }
+    .modal {
+        
+        &__close {
+            font-size: 28px;
+            right: 3px;
+            top: 3px;
+        }
+        form {
+            margin-top: 25px;
+            width: 95%;
+            input {
+                margin-bottom: 15px;
+                padding-left: 10px;
+                display: block;
+                width: 100%;
+                font-size: 14px;
+                line-height: 66px;
+                color: #4B4B4B;
+                border-radius: 5px;
+                border: none;
+                &:nth-child(3) {
+                    margin-bottom: 25px;
+                }
+            }
+            button {
+                width: 100%;
+            }
+        }
     }    
 
 }
@@ -327,6 +356,43 @@
                         margin-top: 15px;
                     }
                 }
+            }
+        }
+    }
+    .footer {
+        &__info {
+            position: absoluter;
+            top: 0;
+            width: 100vw;
+
+        }
+    }
+    .modal {
+        width: 95vw;
+        &__close {
+            font-size: 28px;
+            right: 3px;
+            top: 3px;
+        }
+        form {
+            margin-top: 25px;
+            width: 95%;
+            input {
+                margin-bottom: 15px;
+                padding-left: 10px;
+                display: block;
+                width: 100%;
+                font-size: 14px;
+                line-height: 66px;
+                color: #4B4B4B;
+                border-radius: 5px;
+                border: none;
+                &:nth-child(3) {
+                    margin-bottom: 25px;
+                }
+            }
+            button {
+                width: 100%;
             }
         }
     }
